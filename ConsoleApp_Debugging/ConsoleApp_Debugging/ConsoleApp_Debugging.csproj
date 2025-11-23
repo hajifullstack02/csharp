@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0527C45B-B342-4BEC-826F-7525D6125560}</ProjectGuid>
+    <ProjectGuid>{70AFFB23-ECF3-4D5A-A8B9-E0DA7CE9126F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MyConsoleApp1</RootNamespace>
-    <AssemblyName>MyConsoleApp1</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>ConsoleApp_Debugging</RootNamespace>
+    <AssemblyName>ConsoleApp_Debugging</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Methods_parameters</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,19 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="10.ConditionalStatements.cs" />
-    <Compile Include="11.loopingMechanisam.cs" />
-    <Compile Include="12.Method_basics.cs" />
-    <Compile Include="13.Method_ReturnType.cs" />
-    <Compile Include="14.MethodParameters.cs" />
-    <Compile Include="2.datatypes.cs" />
-    <Compile Include="3.VarAndDynamic.cs" />
-    <Compile Include="4.StringExample.cs" />
-    <Compile Include="5.StringMoreConcept.cs" />
-    <Compile Include="6.TypeConversation.cs" />
-    <Compile Include="7.Array.cs" />
-    <Compile Include="8.ConsleReadLineDem.cs" />
-    <Compile Include="9.Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
