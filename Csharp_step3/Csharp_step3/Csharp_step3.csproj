@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SynchronousCallsContainer.Program</StartupObject>
+    <StartupObject>EmployeeAsyncContainer.EmployeeAsyncClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,14 +47,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Methods_Revision.cs" />
+    <Compile Include="10.CustomException.cs" />
     <Compile Include="2.Methods_Advanced.cs" />
     <Compile Include="3.Methods_ref_out.cs" />
     <Compile Include="4.ExtensionMethods.cs" />
     <Compile Include="5.Sync-call.cs" />
+    <Compile Include="6.Async\1.Async-Basics.cs" />
+    <Compile Include="6.Async\2.Async_Advanced.cs" />
+    <Compile Include="6.Async\4.Async_withParams.cs" />
+    <Compile Include="7.ExtensionMethods.cs" />
+    <Compile Include="8.Extension_Methods_Datatypes.cs" />
+    <Compile Include="9.ExceptionHanlding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="6.Async\3.Async_exapmle.cs" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
