@@ -14,7 +14,7 @@ namespace ProjectB
             //Console.WriteLine(classA.privateVar);  // ❌ Not Accessible
             //Console.WriteLine(classA.protectedVar);  // ❌ Not Accessible
             //Console.WriteLine(classA.internalVar);  // ❌ Not Accessible
-            //Console.WriteLine(classA.protectedInternalVar);  //✅ Accessible
+            //Console.WriteLine(classA.protectedInternalVar);  // ❌ Not Accessible
             Console.WriteLine(classA.publicVar);      //✅ Accessible
 
         }
